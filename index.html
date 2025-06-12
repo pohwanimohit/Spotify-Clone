@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player : Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="left bg-black">
+        <div class="home bg-grey rounded m-1">
+          
+          <div class="spoti flex">
+           
+            <div class="spoti-logo"><img src="logo.svg" alt="Spotify_logo" class="logo invert"/> Spotify</div>
+            <div class="cross"><i class="fa-solid fa-xmark"></i></div>
+          </div>
+          <ul>
+            <li><i class="fa-solid fa-house"></i>Home</li>
+            <li><i class="fa-solid fa-magnifying-glass"></i>Search</li>
+          </ul>
+        </div>
+        <div class="lib bg-grey rounded m-1">
+          <header>
+            <ul>
+              <li><i class="fa-solid fa-book-open"></i> Your Library</li>
+              <li><i class="fa-solid fa-plus"></i></li>
+            </ul>
+          </header>
+          <div class="lib-foot">
+            <div>
+              <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/privacy/"
+                ><span>Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-black">
+        <div class="r-cont bg-grey rounded m-1">
+          <div class="r-top flex">
+            <div class="r-top-left">
+              <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+              <i class="fa-solid fa-chevron-left"></i>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="r-top-right flex">
+              <button type="button" onclick="myFunction()">Sign up</button>
+              <button type="button" onclick="myFunction()">Login</button>
+            </div>
+          </div>
+          <div class="spoti-play">
+            <h2>Spotify Playlists</h2>
+            <div class="cards">
+              <div class="card-1">
+                <!-- Load Font Awesome -->
+                <img src="p1.png" alt="" class="card-img" />
+                <h3>Happy Hits!</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+                <link
+                  rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+                />
+
+                <span class="fa-stack fa-2x">
+                  <i
+                    class="fa-solid fa-circle fa-stack-2x"
+                    style="color: green"
+                  ></i>
+                  <i
+                    class="fa-solid fa-play fa-stack-1x"
+                    style="color: black"
+                  ></i>
+                </span>
+              </div>
+              <div class="card-1">
+                <img src="p2.png" alt="" class="card-img" />
+                <h3>Happy Hits!</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+
+                <span class="fa-stack fa-2x">
+                  <i
+                    class="fa-solid fa-circle fa-stack-2x"
+                    style="color: green"
+                  ></i>
+                  <i
+                    class="fa-solid fa-play fa-stack-1x"
+                    style="color: black"
+                  ></i>
+                </span>
+              </div>
+              <div class="card-1">
+                <img src="p3.png" alt="" class="card-img" />
+                <h3>Happy Hits!</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+
+                <span class="fa-stack fa-2x">
+                  <i
+                    class="fa-solid fa-circle fa-stack-2x"
+                    style="color: green"
+                  ></i>
+                  <i
+                    class="fa-solid fa-play fa-stack-1x"
+                    style="color: black"
+                  ></i>
+                </span>
+              </div>
+              <div class="card-1">
+                <img src="p4.png" alt="" class="card-img" />
+                <h3>Happy Hits!</h3>
+                <p>Hits to boost your mood and fill you with happiness!</p>
+
+                <span class="fa-stack fa-2x">
+                  <i
+                    class="fa-solid fa-circle fa-stack-2x"
+                    style="color: green"
+                  ></i>
+                  <i
+                    class="fa-solid fa-play fa-stack-1x"
+                    style="color: black"
+                  ></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="playbar">
+            <div class="playbuttons">
+              <i class="fa-solid fa-backward-step"></i>
+              <i class="fa-solid fa-circle-play"></i>
+              <i class="fa-solid fa-forward-step"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
